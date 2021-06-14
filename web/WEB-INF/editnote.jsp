@@ -12,14 +12,18 @@
         <title>Simple Note Keeper Pages</title>
     </head>
     <body>
+        
         <h1>Simple Note Keeper</h1>
-        <h3>Edit Note</h3>
-        <label>Title</label>
-        <input type="text" name="title" value=""/>
-        <br>
-        <label>Contents</label>
-        <input type="text" name="contents" value="" size="30" />
-        <br>
-        <input type="submit" value="Save" name="save" />
+        <form method="POST">
+           <h3>Edit Note</h3>
+            <label>Title</label>
+            <input type="text" name="title" value=""/>
+            <br>
+            <label>Contents</label>
+            <input type="text" name="contents" value="" size="30" />
+            <br>
+            <input type="submit" value="Save" name="save" /> 
+        </form>
+        
     </body>
 </html>

@@ -14,10 +14,10 @@
     <body>
         <h1>Simple Note Keeper</h1>
         <h3>View Note</h3>
-        <p><b>Title: </b> This is the title</p>
-        <p><b>Contents:</b> This is the title</p>
+        <p><b>Title: </b> </p>
+        <p><b>Contents: </p>
         <p>Contents go here</p>
-        
+        <a href="note?edit">Edit</a>
             
     </body>
 </html>
